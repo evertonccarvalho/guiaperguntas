@@ -8,12 +8,12 @@
             <div class="card-header">
                 <h3>Realizar Pergunta</h3>
             <div class="card-body">
-                <form method="post" action="/salvarpergunta">
+                <form method="POST" action="/salvarpergunta">
                     <label>Título</label>
-                    <input type="text" placeholder="Título" class="form-control">
+                    <input type="text" placeholder="Título" class="form-control" name="titulo">
                     <br>
                     <label>Descrição</label>
-                    <textarea placeholder="Descreva Sua Pergunta Aqui" class= "form-control" id="" cols="30" rows="5"></textarea>
+                    <textarea placeholder="Descreva Sua Pergunta Aqui" class= "form-control" name="descricao" id="" cols="30" rows="5"></textarea>
                     <br>
                     <button class="btn btn-success">Perguntar</button>
         
