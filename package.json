@@ -1,0 +1,15 @@
+{
+  "name": "guiaperguntas",
+  "version": "1.0.0",
+  "description": "\"Site de pergunta estilo Yahoo\";",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Éverton Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
